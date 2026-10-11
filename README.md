@@ -28,6 +28,7 @@
 | [**`normahub-cli`**](https://github.com/normahubcc/normahub-cli) | Локальный шлюз с SQLite-кэшем и эмуляцией протоколов OpenAI/Ollama | `normahub start` |
 | [**`seedance-video-api-python`**](https://github.com/normahubcc/seedance-video-api-python) | Python SDK и CLI для видеомоделей SeeDance 2.5 и Grok Video | `pip install seedance-video-api` |
 | [**`code-review-action`**](https://github.com/normahubcc/code-review-action) | GitHub Action для автоматического код-ревью в Pull Request | `uses: normahubcc/code-review-action@v1` |
+| [**`install_scripts`**](https://github.com/normahubcc/install_scripts) | Скрипты быстрой настройки Claude Code, Codex и OpenCode под NormaHub | `bash install_claude.sh` |
 
 ---
 
