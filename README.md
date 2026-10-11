@@ -64,6 +64,7 @@ flowchart TD
 | [**`mcp-server-normahub`**](https://github.com/normahubcc/mcp-server-normahub) | Официальный MCP-сервер для подключения к Claude Desktop, Cursor и AI-агентам. Инструменты генерации текста, картинок и видео. | TypeScript, MCP 1.0, Stdio & SSE | `npx -y @normahub/mcp-server` |
 | [**`normahub-cli`**](https://github.com/normahubcc/normahub-cli) | Локальный шлюз (gateway) с эмуляцией OpenAI и Ollama API, дедупликацией в SQLite и авто-настройкой конфигов IDE. | Python 3.9+ (Zero-deps), SQLite | `normahub start` |
 | [**`seedance-video-api-python`**](https://github.com/normahubcc/seedance-video-api-python) | Python SDK и CLI для генерации видео через ByteDance SeeDance 2.5 / 2.0 и xAI Grok Video (Text-to-Video и Image-to-Video). | Python 3.9+ (Zero-deps), asyncio | `seedance "Промпт" -o video.mp4` |
+| [**`code-review-action`**](https://github.com/normahubcc/code-review-action) | Автоматизированный GitHub Action для проведения код-ревью в Pull Request с защитой от спама и блокировкой уязвимостей. | Node.js (Zero-deps), GitHub Action | `uses: normahubcc/code-review-action@v1` |
 
 ---
 
