@@ -20,17 +20,20 @@
 
 ---
 
-### Open Source инструменты
+### Open Source экосистема
 
 | Проект | Описание | Быстрый запуск |
 |---|---|---|
-| [**`mcp-server-normahub`**](https://github.com/normahubcc/mcp-server-normahub) | Официальный MCP-сервер для Cursor, Claude Desktop и AI-агентов | `npx -y @normahub/mcp-server` |
-| [**`normahub-cli`**](https://github.com/normahubcc/normahub-cli) | Локальный шлюз с SQLite-кэшем и эмуляцией протоколов OpenAI/Ollama | `normahub start` |
-| [**`seedance-video-api-python`**](https://github.com/normahubcc/seedance-video-api-python) | Python SDK и CLI для видеомоделей SeeDance 2.5 и Grok Video | `pip install seedance-video-api` |
-| [**`code-review-action`**](https://github.com/normahubcc/code-review-action) | GitHub Action для автоматического код-ревью в Pull Request | `uses: normahubcc/code-review-action@v1` |
-| [**`aiogram-ai-starter`**](https://github.com/normahubcc/aiogram-ai-starter) | Продакшен-стартер Telegram-бота (aiogram 3, стриминг без 429, SeeDance) | `python -m bot.main` |
-| [**`nextjs-ai-starter`**](https://github.com/normahubcc/nextjs-ai-starter) | Фуллстек-стартер AI-чата и видеостудии (Next.js 15, Vercel AI SDK) | `pnpm dev` |
-| [**`install_scripts`**](https://github.com/normahubcc/install_scripts) | Скрипты быстрой настройки Claude Code, Codex и OpenCode под NormaHub | `bash install_claude.sh` |
+| [**`mcp-server-normahub`**](https://github.com/normahubcc/mcp-server-normahub) | Официальный MCP-сервер для Cursor, Claude Desktop и AI-агентов (Whisper, генерация видео, баланс) | `npx -y @normahub/mcp-server` |
+| [**`normahub-cli`**](https://github.com/normahubcc/normahub-cli) | Терминальный ассистент, бенчмарк задержек (TTFT/tok/s) и локальный шлюз с SQLite-кэшем | `normahub benchmark` |
+| [**`seedance-video-api-python`**](https://github.com/normahubcc/seedance-video-api-python) | Python SDK и CLI для видеогенерации SeeDance 2.5 / 2.0 и Grok Video (`generate`, `status`, `models`) | `pip install seedance-video-api` |
+| [**`code-review-action`**](https://github.com/normahubcc/code-review-action) | GitHub Action для AI код-ревью в Pull Request с поддержкой `.normahub-review.yml` | `uses: normahubcc/code-review-action@v1` |
+| [**`fastapi-ai-enterprise-starter`**](https://github.com/normahubcc/fastapi-ai-enterprise-starter) | High-Load AI Gateway на FastAPI с персистентным SQLite RAG, гибридным поиском и семантическим кэшем | `docker compose up` |
+| [**`multi-agent-starter`**](https://github.com/normahubcc/multi-agent-starter) | Автономная мульти-агентная система на LangGraph 0.2+ с изолированной песочницей pytest | `python -m agent.cli` |
+| [**`telegram-multimodal-studio`**](https://github.com/normahubcc/telegram-multimodal-studio) | Мультимодальная студия (Whisper транскрипция, SeeDance 2.5 видео и пресеты стилей) | `python -m bot.main` |
+| [**`nextjs-ai-starter`**](https://github.com/normahubcc/nextjs-ai-starter) | Фуллстек Next.js 15 AI-чат с Live Canvas для интерактивных артефактов и Model Arena (Duel) | `pnpm dev` |
+| [**`aiogram-ai-starter`**](https://github.com/normahubcc/aiogram-ai-starter) | Продакшен-стартер Telegram-бота (aiogram 3, транскрипция голосовых и кружочков, Stars) | `python -m bot.main` |
+| [**`install_scripts`**](https://github.com/normahubcc/install_scripts) | Скрипты быстрой настройки Claude Code, Codex, OpenCode и экспресс-диагностики `check_normahub` | `bash check_normahub.sh` |
 
 ---
 
